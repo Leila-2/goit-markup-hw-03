@@ -123,7 +123,6 @@ body {
 }
 .dark-bg {
   background-color: var(--dark-bg);
-  height: 600px;
 }
 .title {
   font-size: 44px;
@@ -133,7 +132,6 @@ body {
   text-align: center;
   font-weight: 900;
   color: #ffffff;
-  margin-top: 200px;
 }
 .button {
   font-size: 16px;
@@ -177,6 +175,14 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-color);
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.section.team {
+  background-color: var(--secondary-bg);
+}
+
 .second-title {
   font-size: 36px;
   line-height: 1.16;
@@ -184,22 +190,40 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondary-color);
   font-weight: 700;
+  margin-bottom: 50px;
 }
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -30px;
+}
+
 .team-names {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.187;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
+  padding-top: 30px;
+  margin-bottom: 0;
 }
 .team-cards {
   text-align: center;
+  margin-right: 30px;
+  flex-basis: calc((100% - 4 * 30px) / 4);
+  background-color: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .position {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--primary-color);
+  padding-top: 10px;
+  padding-bottom: 30px;
+  margin-bottom: 0;
 }
 .text.address {
   color: #ffffff;
