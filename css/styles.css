@@ -37,8 +37,7 @@ p {
 /* img {
   display: block;
   max-width: 100%;
-  height: auto;
-} */
+  height: auto; */
 
 body {
   font-family: var(--main-font), sans-serif;
@@ -90,6 +89,7 @@ body {
 .page-header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border: 1px solid #ececec;
 }
 
 .link.nav {
@@ -106,7 +106,7 @@ body {
 
 .address {
   font-style: inherit;
-  margin-top: 20px;
+  margin: 0;
 }
 .link.logo {
   color: var(--secondary-color);
@@ -255,9 +255,10 @@ body {
 }
 .text.address {
   color: #ffffff;
+  margin-top: 20px;
 }
 .footer-item {
-  padding-top: 9px;
+  margin-top: 9px;
 }
 .button-menu {
   background: var(--secondary-bg);
@@ -269,26 +270,48 @@ body {
   letter-spacing: 0.03em;
   align-items: center;
   font-weight: 500;
+  border: none;
 }
 .button-menu:hover,
 .button-menu:focus {
   background-color: var(--accent-color);
   color: #ffffff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .menu {
   text-align: center;
-  align-items: center;
+  margin-bottom: 34px;
+  margin-right: 9px;
 }
+.list.menu-item {
+  justify-content: center;
+}
+
 .portfolio-tittle {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--secondary-color);
+  margin-top: 20px;
+  margin-left: 24px;
+  margin-bottom: 0;
 }
 .portfolio-item {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--primary-color);
+  margin-left: 24px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.portfolio-card {
+  margin-right: 30px;
+  flex-basis: calc((100% - 9 * 30px) / 9);
+  border: 1px solid #eeeeee;
+  width: 370px;
+  margin-bottom: 30px;
+  min-height: 404px;
 }
