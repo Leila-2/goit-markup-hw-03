@@ -52,8 +52,8 @@ body {
   text-decoration: none;
   line-height: 1.43;
   font-weight: 500;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .container {
@@ -130,8 +130,7 @@ body {
 .hero-section {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding: 200px;
 }
 
 .hero-container {
@@ -263,6 +262,7 @@ body {
   /* padding-bottom: 30px; */
   margin-bottom: 0;
 }
+
 .dark-bg.footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -306,8 +306,12 @@ body {
   margin-bottom: 50px;
 }
 .portfolio-text {
-  margin-left: 24px;
-  margin-top: 20px;
+  /* margin-left: 24px;
+  margin-top: 20px; */
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .portfolio-tittle {
@@ -326,8 +330,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-color);
   /* margin-left: 24px; */
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   margin-top: 4px;
+  margin-block-end: 0em;
 }
 .portfolio-card {
   margin-right: 30px;
