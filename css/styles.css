@@ -89,13 +89,14 @@ body {
 }
 
 .page-header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 30px;
+  padding-bottom: 30px; */
   border: 1px solid #ececec;
 }
 
 .link.nav {
   color: var(--secondary-color);
+  display: inline-block;
 }
 .link.nav.current {
   color: var(--accent-color);
@@ -117,6 +118,7 @@ body {
   letter-spacing: 0.03em;
   line-height: 1.19;
   margin-right: 93px;
+  /* display: inline-block; */
 }
 .link.logo.white {
   color: #f5f4fa;
@@ -130,7 +132,7 @@ body {
 .hero-section {
   margin-left: auto;
   margin-right: auto;
-  padding: 200px;
+  padding: 200px 0px;
 }
 
 .hero-container {
